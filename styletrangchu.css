@@ -1,0 +1,147 @@
+body {
+    font-family: sans-serif;
+    background:url('https://free4kwallpapers.com/uploads/originals/2021/01/20/music-wallpaper.jpg');
+    background-position: center center;
+    background-size: cover;
+}
+
+.button {
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: 0 solid white;
+}
+
+.music {
+    width: 50%;
+    margin: 5px;
+    border-radius: 20px;
+    background-color: rgba(0, 4, 255, 0);
+    padding: 15px 15px 30px;
+}
+
+.music-thumb {
+    width: 200px;
+    height: 200px;
+    border-radius: 8px;
+    margin: 0 auto 25px;
+    
+}
+
+.music-thumb img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 100px;   
+    border: 3px solid;
+}
+
+.music-name {
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.timer {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+    color: rgba(0, 4, 255, 0);
+    margin-bottom: 20px;
+}
+
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0 50px;
+}
+
+.fa-play,
+.fa-pause {
+    width: 50px;
+    height: 50px;
+    border-radius: 100rem;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    box-shadow: black;
+    font-size: 20px;
+}
+
+.fa-backward,
+.fa-forward {
+    cursor: pointer;
+}
+
+.range-webkit-appearance {
+    width:70%;
+    background: transparent;
+    margin: 0 auto 30px auto;
+}
+
+.range::-webkit-slider-runnable-track {
+    width: 100%;
+    height: 5px;
+    background-color: white;
+}
+
+.range::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    background-color: black;
+    width: 10px;
+    height: 10px;
+    border-radius: 100rem;
+    margin-top: -3px;
+    box-shadow: 0 0 0 5px; color: white;
+}
+
+audio {
+    width: 50%;
+    height: 30px;
+}
+
+.fa-repeat,
+.fa-shuffle {
+    cursor: pointer;
+}
+
+.content {
+    display: flex;
+}
+
+.playlist {
+    width: 50%;
+}
+
+.playlist table {
+    margin: 0 auto;
+    text-align: center;
+}
+
+.playlist h1 {
+    text-align: center;
+}
+
+.playlist tbody {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+@keyframes ani {
+    from {
+        transform:rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+  }
+  .img-music {
+    animation: ani 2s;
+    animation-iteration-count: infinite;
+  }

@@ -1,0 +1,31 @@
+body {
+    background: url('https://images.unsplash.com/photo-1505740420928-5e560c06d30e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8aGVhZHBob25lc3xlbnwwfHwwfHw%3D&w=1000&q=80');
+    background-size: cover;
+}
+
+.img-info {
+    width: 10%;
+    height: 10%;
+    border-radius: 100px;
+    border: 3px solid;  
+}
+img {
+    width: 12%;
+    height: 12%;
+}
+
+button {
+    width: 100px;
+    height: 50px;
+    border-radius: 10px;
+    border: 0 solid white;
+    padding: 15px 15px 30px;    
+}
+.img-album {
+    display: flex;
+}
+
+.status {
+    margin-left: 80px;  
+    margin-top: -70px;  
+}
